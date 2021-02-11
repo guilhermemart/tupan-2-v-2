@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+matplotlib = "*"
+scipy = "*"
+pandas = "*"
+requests = "*"
+dj-database-url = "*"
+python-decouple = "*"
+gunicorn = "*"
+collectfast = "*"
+pytest-django = "*"
+psycopg2-binary = "*"
+django-debug-toolbar = "*"
+whitenoise = "*"
+django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
