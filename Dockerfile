@@ -73,9 +73,9 @@ RUN pip install psycopg2 gunicorn wradlib georaster selenium requests Django pan
 COPY . .
 
 #RUN pipenv run python3 manage.py collectstatic --noinput
-RUN python3 manage.py collectstatic --noinput
+#RUN python3 manage.py collectstatic --noinput
 
-CMD gunicorn c137.wsgi:application --bind 0.0.0.0:$PORT
+#CMD gunicorn c137.wsgi:application --bind 0.0.0.0:$PORT
 
 #RUN useradd -m python_user
 #WORKDIR /home/python_user
