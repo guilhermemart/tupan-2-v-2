@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
-ARG DEBIAN_FRONTEND="noninteractive" TZ="America/Sao_Paulo"
+ARG DEBIAN_FRONTEND="noninteractive"
+ARG TZ="America/Sao_Paulo"
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
