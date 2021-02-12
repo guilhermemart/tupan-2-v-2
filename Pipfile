@@ -18,6 +18,9 @@ psycopg2-binary = "*"
 django-debug-toolbar = "*"
 whitenoise = "*"
 django = "*"
+arm-pyart = "*"
+netcdf4 = "*"
+h5py = "*"
 
 [dev-packages]
 

@@ -68,7 +68,7 @@ RUN pip install GDAL==2.4.2
 #RUN pipenv install psycopg2 gunicorn wradlib georaster selenium requests Django pandas matplotlib\
 #   scipy requests dj-database-url whitenoise
 RUN pip install psycopg2 gunicorn wradlib georaster selenium requests Django pandas matplotlib\
-    scipy requests dj-database-url whitenoise
+    scipy requests dj-database-url whitenoise arm-pyart netCDF4 h5py
 
 COPY . .
 

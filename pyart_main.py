@@ -66,9 +66,7 @@ class pyart_main:
                   int(self.raio / xsect.range['meters_between_gates'])]
         print(refletivity)
         BASE_DIR = Path(__file__).resolve().parent
-        arquivo = os.path.join(BASE_DIR, 'Tupan_2')
-        arquivo = os.path.join(arquivo, 'base')
-        arquivo = os.path.join(arquivo, 'static')
+        arquivo = os.path.join(BASE_DIR, 'c137')
         arquivo = os.path.join(arquivo, 'downloads')
         arquivo = os.path.join(arquivo, 'csv_default.csv')
         with open(arquivo, 'w', newline='') as csvfile:
